@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Container */
+.container{
+    display: flex;
+    height: 500px;
+    width: 800px;
+    border: 1px solid whitesmoke;
+    margin: auto;
+    margin-top: 50px;
+}
+
+/* Forgot Password? Form */
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    background-color: white;
+}
+.form img{
+    width: 140px;
+    margin-top: 70px;
+    margin-right: 150px;
+    margin-bottom: 25px;
+}
+.form h2{
+    margin-right: 230px;
+    font-size: 13.0px;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-bottom: 15px;
+}
+.form p{
+    margin-right: 60px;
+    font-size: 12.0px;
+    margin-left: 40px;
+    margin-bottom: 25px;
+}
+.box{
+    padding: 10px;
+    width: 50%;
+    margin: 12px;
+    border: 1px solid lightgray;
+    outline: none;
+    border-radius: 0px;
+}
+.form input{
+    width: 70%;
+    margin: 0px auto;
+    margin-bottom: 1rem;
+    height: 30px;
+}
+.form input{
+    margin-right: 54px;
+    margin-left: 5px;
+    border: none;
+    outline: none;
+}
+.form .input-box .i{
+    position: relative;
+    right: 0px;
+    border-radius: 15px;
+}
+.form .input-box{
+    border: 1px solid lightgrey;
+    margin-bottom: 1rem;
+}
+.work p{
+    margin-right: 100px;
+    font-size: 12.0px;
+    margin-left: 10px;
+    margin-bottom: 25px;
+}
+#submit{
+    width: 70%;
+    margin: 0px auto;
+    margin-bottom: 1rem;
+    height: 30px;
+    background-color: black;
+    color: yellow;
+    font-weight: bold;
+}
+#submit:hover{
+    text-align: center;
+}
+/* Left Side */
+.side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: black;
+}
+.side img{
+    margin-bottom: 120px;
+    margin-right: 50px;
+    margin-left: 100px;
+    width: 500px;
+    height: 300px;
+}
